@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sản Phẩm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 40px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      border-radius: 5px;
+      object-fit: cover;
+      background: #e0e0e0;
+      display: block;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+      color: #333;
+    }
+    .product-card p {
+      color: #555;
+      font-size: 14px;
+      min-height: 40px;
+    }
+    .price {
+      font-size: 18px;
+      color: #e67e22;
+      margin: 10px 0;
+    }
+    .product-card a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .product-card a:hover {
+      background-color: #2980b9;
+    }
+    .more-info {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .more-info a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #e74c3c;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      display: inline-block;
+    }
+    .more-info a:hover {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+<body>
+  <!-- ở đây đường dẫn ảnh ko có thật -->
+  <div class="container">
+    <h1>Sản Phẩm</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 1">
+        <h3>Sản phẩm 1</h3>
+        <p>có tiền hẳn là mua đc</p>
+        <div class="price">1,000,000,000,000,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 2">
+        <h3>Sản phẩm 2</h3>
+        <p>có tiền cx ko mua đc</p>
+        <div class="price">9,999,999,999,999,999 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 3">
+        <h3>Sản phẩm 3</h3>
+        <p>shipj</p>
+        <div class="price">3,200,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 4">
+        <h3>Sản phẩm 4</h3>
+        <p>doraedo</p>
+        <div class="price">4,500,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 5">
+        <h3>Sản phẩm 5</h3>
+        <p>dành cho tp</p>
+        <div class="price">1,800,000,000,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 6">
+        <h3>Sản phẩm 6</h3>
+        <p>dành cho PB</p>
+        <div class="price">2,700,999,999,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 7">
+        <h3>Sản phẩm 7</h3>
+        <p> </p>
+        <div class="price">3,900 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 8">
+        <h3>Sản phẩm 8</h3>
+        <p></p>
+        <div class="price">5,000,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 9">
+        <h3>Sản phẩm 9</h3>
+        <p></p>
+        <div class="price">6,300,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 10">
+        <h3>Sản phẩm 10</h3>
+        <p> </p>
+        <div class="price">7,500,000 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 10">
+        <h3>Sản phẩm 11</h3>
+        <p> </p>
+        <div class="price">100 VND</div>
+        <a href="#">Mua ngay</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x150" alt="Sản phẩm 10">
+        <h3>Sản phẩm 11</h3>
+        <p> </p>
+        <div class="price">999,888,777,666,555,444 USD</div>
+        <a href="#">Mua ngay</a>
+      </div>
+    </div>
+    <div class="more-info">
+      <p>Hãy đến <a href="https://shopee.vn/">trang chủ chính thức</a> để biết thêm thông tin chi tiết.</p>
+    </div>
+  </div>
+</body>
+</html>

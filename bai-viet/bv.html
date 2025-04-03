@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .blog {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+        }
+    
+        .blog h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    
+        .blog-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    
+        .blog-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            max-width: 300px;
+            text-align: left;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+    
+        .blog-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    
+        .blog-card h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #333;
+        }
+    
+        .blog-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+    
+        .blog-card .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+    
+        .blog-card .read-more:hover {
+            background: #0056b3;
+        }
+    
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+<section class="blog">
+    <h2>Bài Viết Mới Nhất</h2>
+    <div class="blog-container">
+        <div class="blog-card">
+            <div class="placeholder-image">📘</div>
+            <h3>Làm sao để tự học lập trình hiệu quả?</h3>
+            <p>Hướng dẫn từng bước giúp bạn chinh phục lập trình từ con số 0.</p>
+            <a href="https://www.topcv.vn/ky-nang-lap-trinh-la-gi" class="read-more">Xem thêm</a>
+        </div>
+        <div class="blog-card">
+            <div class="placeholder-image">🚀</div>
+            <h3>5 xu hướng công nghệ bạn không thể bỏ lỡ trong 2025</h3>
+            <p>Khám phá những công nghệ sẽ thay đổi thế giới trong tương lai gần.</p>
+            <a href="https://dev.to/habil_nasutionx/the-future-is-here-7-technology-trends-you-cant-miss-in-2025-3a70" class="read-more">Xem thêm</a>
+        </div>
+        <div class="blog-card">
+            <div class="placeholder-image">🎓</div>
+            <h3>Bí quyết viết bài luận săn học bổng ấn tượng</h3>
+            <p>Những mẹo giúp bạn gây ấn tượng với hội đồng xét tuyển học bổng.</p>
+            <a href="https://www.sallie.com/scholarships/essays" class="read-more">Xem thêm</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

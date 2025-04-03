@@ -1,0 +1,79 @@
+body{
+    font-family:Arial,sans-serif ;
+    margin : 0px;
+    padding:0;
+    background: linear-gradient(135deg, #74b9ff, #81ecec);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+a {
+    text-decoration: none;
+}
+form{
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 6px rgb(175, 166, 166);
+    width:300px;
+}
+
+label {
+    display: block;
+    margin-bottom:10px;
+    font-weight:bold;
+    color:#07a7a7;
+}
+.password-container{
+    position:relative;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding :10px;
+    margin-bottom :15px;
+    border: 1px solid rgb(226, 216, 216);
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    outline:none;
+    border-color:rgb(72, 215, 234);
+    box-shadow :0 0 5px rgb(11, 150, 230)
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover{
+    border-color:#1f06ff
+}
+
+.eye-icon {
+    position : absolute;
+    top:23%;
+    right:10px;
+    transform: translateY(-50%);
+    cursor:pointer;
+}
+
+.eye-icon img{
+    width : 20px;
+    height : 20px;
+
+}
+
+#buttons {
+    background-color: #fbfbff;
+    border-radius :5px;
+    padding: 5px 12px;
+    border : 1px solid ;
+    font-family:Arial;
+
+}
+#buttons:hover {
+    border-color : rgb(255, 23, 23);
+    color:#1f06ff
+}
